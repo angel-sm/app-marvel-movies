@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { App } from './components/App'
+import { Movies } from './container/Movies'
+import './shared/index.css'
 
-ReactDOM.render(<App />, document.getElementById('App'))
+ReactDOM.render(<Movies />, document.getElementById('App'))

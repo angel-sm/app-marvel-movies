@@ -33,7 +33,8 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
-          'sass-loader'
+          'sass-loader',
+          'postcss-loader'
         ]
       }
     ]
@@ -45,6 +46,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css'
+
     })
   ],
   devServer: {
